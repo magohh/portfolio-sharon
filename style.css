@@ -13,6 +13,21 @@ nav{
 	padding:5%;
 }
 nav ul a,nav a, nav .brand-logo{color:#D36580;}
+
+footer{
+    background-color: #D36580;
+    color: #FFF;
+    padding: 3em;
+}
+footer ul{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+footer p:first-child{
+    font-family: Futura-bold;
+    text-align: center;
+}
 /*Fonts*/
 @font-face {
     font-family: Autografy;
@@ -76,11 +91,41 @@ h1{
     color: rgba(211, 101, 128, .2);
 	z-index: -1;
 }
+.title-collage{
+    font-family: 'Autografy';
+    font-size: 10em;
+    position: absolute;
+    top: -78%;
+    left: -33%;
+    color: rgba(215, 133, 76,.2);
+    z-index: -1;
+    margin: 0;
+}
+.title-art{
+    font-family: 'Autografy';
+    font-size: 10em;
+    position: absolute;
+    top: -78%;
+    right: -20%;
+    color: rgba(215, 133, 76,.2);
+    z-index: -1;
+    margin: 0;
+}
+.title-editorial{
+    font-family: 'Autografy';
+    font-size: 9em;
+    position: absolute;
+    top: 0px;
+    left: -136%;
+    color: rgba(128, 175, 175,.3);
+    z-index: -1;
+}
 .title-cat{
-	text-align: right;
     font-family: 'Futura-Bold';
     letter-spacing: .1em;
 }
+.text-center{text-align:center;}
+.text-right{text-align: right;}
 
 .title-cat-typo{
 	text-align: left;
@@ -149,7 +194,6 @@ hr{
 .square-4{
 	position: absolute;
     border: 3px solid rgba(211, 101, 128, .5);
-	);
     height: 244px;
     width: 248px;
     top: -1.75rem;
@@ -163,6 +207,15 @@ hr{
     width: 185px;
     top: -1.75rem;
     left: -1rem;
+    z-index: -1;
+}
+.square-6{
+    position: absolute;
+    border: 3px solid rgba(128, 175, 175,.9);
+    height: 211px;
+    width: 233px;
+    top: -1.75rem;
+    right: -1rem;
     z-index: -1;
 }
 /*Media*/
@@ -216,7 +269,7 @@ hr{
 
 /*Margin-padding*/
 .m2--5{margin: 2em 0.5em 0 0}
-
+.mb-130{margin-bottom:130px;}
 /*Width-height*/
 .h700{height: 700px;}
 .h500{height: 500px;}
