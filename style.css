@@ -1,0 +1,232 @@
+
+body{
+	background-image: url("./img/fondo-sm.png");
+	background-repeat: repeat;
+	background-size:cover;
+	overflow-x: hidden;
+}
+
+nav{
+	color:#D36580;
+	background-color: transparent;
+	box-shadow: none;
+	padding:5%;
+}
+nav ul a,nav a, nav .brand-logo{color:#D36580;}
+/*Fonts*/
+@font-face {
+    font-family: Autografy;
+    src:url('./fonts/Autography.otf');
+	font-display: swap;
+}
+@font-face {
+    font-family: Futura;
+    src: url('./fonts/Futura.ttc');
+}
+@font-face {
+    font-family: Futura-Bold;
+    src: url('./fonts/Futura Bold.otf');
+}
+/*Typo*/
+h1{
+	font-family: Futura-Bold;
+	letter-spacing: .2em;
+	font-size: 7rem;
+	margin-top:.8em;
+}
+.title1{
+	font-family: Autografy;
+    position: absolute;
+    top: -47%;
+    font-size: 5.5em;
+    font-weight: 100;
+}
+.title-branding{
+	font-family: 'Autografy';
+    font-size: 13em;
+    position: absolute;
+    right: -54%;
+    color: rgba(211, 101, 128, .2);
+	z-index: -1;
+}
+.title-mural{
+	font-family: 'Autografy';
+    font-size: 13em;
+    position: absolute;
+    top: 0px;
+    left: -97%;
+    color: rgba(215, 133, 76,.2);
+	z-index: -1;
+}
+.title-typo{
+	font-family: 'Autografy';
+    font-size: 13em;
+    position: absolute;
+    top: 0px;
+    left: 31%;
+    color: rgba(128, 175, 175,.3);
+	z-index: -1;
+}
+.title-illu{
+	font-family: 'Autografy';
+    font-size: 13em;
+    position: absolute;
+    top: 0px;
+    right: 31%;
+    color: rgba(211, 101, 128, .2);
+	z-index: -1;
+}
+.title-cat{
+	text-align: right;
+    font-family: 'Futura-Bold';
+    letter-spacing: .1em;
+}
+
+.title-cat-typo{
+	text-align: left;
+    font-family: 'Futura-Bold';
+    letter-spacing: .1em;
+    margin-top: 2em;
+    position: absolute;
+    left: -10%;
+}
+
+.vertical-text{
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	display: table-cell;
+}
+.text-box-vertical{
+	position: absolute;
+    left: -10%;
+    bottom: 20%;
+}
+
+.fz-2-5{font-size:2.5em;}
+.fz-2-7{font-size: 2.7em;}
+/*Shapes*/
+.box1{
+	position: absolute;
+    top: 42%;
+    width: 500px;
+    background-color: rgba(128, 175, 175, .45);
+    padding: 3em;
+    font-family: 'Futura';
+    font-weight: 900;
+}
+hr{
+	border: 2px solid #FFF;
+    width: 100px;
+    margin: initial;
+}
+.square-1{
+	position: absolute;
+    border: 3px solid rgba(211, 101, 128, .5);
+    height: 186px;
+    width: 281px;
+    top: -1.75rem;
+    left: -1rem;
+    z-index: -1;
+}
+.square-2{
+	position: absolute;
+    border: 3px solid rgba(215, 133, 76,.5);
+    height: 186px;
+    width: 281px;
+    top: -1.75rem;
+    right: -0.75rem;
+    z-index: -1;
+}
+.square-3{
+	position: absolute;
+    border: 3px solid rgba(128, 175, 175,.9);
+    height: 244px;
+    width: 248px;
+    top: -1.75rem;
+    left: 3rem;
+    z-index: -1;
+}
+.square-4{
+	position: absolute;
+    border: 3px solid rgba(211, 101, 128, .5);
+	);
+    height: 244px;
+    width: 248px;
+    top: -1.75rem;
+    right: 13%;
+    z-index: -1;
+}
+.square-5{
+	position: absolute;
+    border: 3px solid rgba(215, 133, 76,.9);
+    height: 185px;
+    width: 185px;
+    top: -1.75rem;
+    left: -1rem;
+    z-index: -1;
+}
+/*Media*/
+
+@media all and (min-width: 706px) and (max-width: 1350px){
+	.box1{
+		top:45%;
+		right:10%;
+	}
+	
+}
+@media all and (min-width: 601px) and (max-width: 705px){
+	h1{font-size:6rem;}
+	.box1{
+		top:36%;
+	}
+}
+
+@media all and (min-width: 511px) and (max-width: 600px){
+	h1{font-size: 5rem;}
+	.box1{
+		top:34%;
+	}
+}
+
+@media all and (min-width: 470px) and (max-width: 510px){
+	h1{font-size: 5rem;}
+	.box1{
+		background-color: rgba(128, 175, 175, .45);
+		padding: 3em;
+		font-family: 'Futura';
+		font-weight: 900;
+		width: 100%;
+		position: relative;
+	}
+	.title1{
+		font-family: Autografy;
+		font-size: 4em;
+		font-weight: 100;
+		top:-32%;
+	}
+}
+
+@media all and (min-width: 0px) and (max-width: 469px){
+
+	.title1{
+		font-size: 5em;
+		top: -43%;
+	}
+}
+
+/*Margin-padding*/
+.m2--5{margin: 2em 0.5em 0 0}
+
+/*Width-height*/
+.h700{height: 700px;}
+.h500{height: 500px;}
+.h450{height: 450px;}
+.h300{height: 300px;}
+.h250{height: 250px;}
+
+.w-100{width: 100%;}
+.w80{width: 80%;}
+
+/*Position*/
+.relative{position: relative;}
+.float-right{float:right;}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<title>Document</title>
+	<!--CSS-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+<body>
+	<nav>
+		<div class="nav-wrapper">
+			<a href="#!" class="brand-logo">MY PORTFOLIO</a>
+			<a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="sass.html">Art and collage</a></li>
+				<li><a href="badges.html">Branding</a></li>
+				<li><a href="collapsible.html">Illustration</a></li>
+				<li><a href="mobile.html">Editorial</a></li>
+				<li><a href="mobile.html">Typography</a></li>
+				<li><a href="mobile.html">Mural Art</a></li>
+			</ul>
+		</div>
+	</nav>
+	<ul class="sidenav" id="mobile-menu">
+		<li><a href="sass.html">Art and collage</a></li>
+		<li><a href="badges.html">Branding</a></li>
+		<li><a href="collapsible.html">Illustration</a></li>
+		<li><a href="mobile.html">Editorial</a></li>
+		<li><a href="mobile.html">Typography</a></li>
+		<li><a href="mobile.html">Mural Art</a></li>
+	</ul>
+<!--BIO-->
+	<div class="container">
+		<div class="row h700">
+			<div class="col s12 m6 l6">
+				<h1>SHARON 
+					BAKAS</h1>
+			</div>
+			<div class="col s12 m6 l6">
+				<div class="box1">
+					<p class="title1 ">graphic designer</p>
+					<p>My name is Sharon Bakas. I am passionate about art and design. I am interested in promoting culture through design and encouraging human values through education.</p>
+					<p>I am concerned about the environment and the consequences of climate change on our lives. </p>
+					<p>I like to learn from and listen to different points of view, as well as understand the needs of others. </p>
+					<hr>
+				</div>
+			</div>
+		</div>
+<!--Branding-->
+		<div class="row h450">
+			<div class="col s12 m6 l6 relative">
+				<div class="square-1"></div>
+				<div class="h300">
+					<img class="w-100" src="img/ramona.png" alt="">
+					<p class="title-cat fz-2-5">BRANDING</p>
+				</div>
+			</div>
+			<div class="col s12 m6 l6 relative">
+				<p class="title-branding">branding</p>
+			</div>
+		</div>
+<!--Mural-->
+		<div class="row h450">
+			<div class="col s12 m6 l6 relative">
+				<p class="title-mural">mural art</p>
+			</div>
+			<div class="col s12 m6 l6 relative">
+				<div class="square-2"></div>
+				<div class="h300 relative">
+					<img class="w80 float-right" src="img/2.png" alt="">
+					<div class="text-box-vertical">
+						<p class="title-cat vertical-text fz-2-7">MURAL</p>
+						<p class="title-cat vertical-text fz-2-7">ART</p>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--Typo-->
+		<div class="row h450">
+			<div class="col s12 m6 l6 relative">
+				<div class="square-3"></div>
+				<div class="h300">
+					<img class="h300" src="img/3-c.png" alt="">
+					
+				</div>
+			</div>
+			<div class="col s12 m6 l6 relative">
+				<p class="title-cat-typo fz-2-5">TYPOGRAPHY</p>
+				<p class="title-typo">typography</p>
+			</div>
+		</div>
+<!--Ilustration-->
+		<div class="row h500">
+			<div class="col s12 m6 l6 relative">
+				<p class="title-cat m2--5 fz-2-5">ILLUSTRATION</p>
+				<p class="title-illu">illustration</p>
+			</div>
+			<div class="col s12 m6 l6 relative">
+				<div class="square-4"></div>
+				<div class="h300">
+					<img class="h250" src="img/4.jpg" alt="">
+					
+				</div>
+			</div>
+		</div>
+<!--Art & collage-->
+		<div class="row relative">
+			<div class="square-5"></div>
+			<div class="col s4">
+				<img class="w-100" src="img/5.jpg" alt="">
+			</div>
+			<div class="col s4">
+				<img class="w-100" src="img/6.jpg" alt="">
+			</div>
+			<div class="col s4">
+				<img class="w-100" src="img/7.jpg" alt="">
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	$('.sidenav').sidenav();
+	});
+	$(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+	</script>
+</body>
+</html>
