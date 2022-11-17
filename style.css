@@ -11,36 +11,80 @@ nav{
 	background-color: transparent;
 	box-shadow: none;
 	padding:5%;
+	font-family: Futura;
+}
+nav .brand-logo{
+	font-family: Futura-bold;
+	font-size: 1.5em;
 }
 nav ul a,nav a, nav .brand-logo{color:#D36580;}
 
 footer{
-    background-color: #D36580;
-    color: #FFF;
-    padding: 3em;
+	background-color: #D36580;
+	color: #FFF;
+	padding: 3em;
+	font-size: 1.1em;;
 }
 footer ul{
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
+	margin: 0;
+	display: flex;
+	justify-content: space-around;
 }
 footer p:first-child{
-    font-family: Futura-bold;
-    text-align: center;
+	font-family: Futura-bold;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 1.5em;
+}
+footer ul li{
+	display: inline-flex;
+	align-items: center;
+}
+footer ul li img{
+	height: 20px;
+	margin-right: 15px;
+}
+
+footer nav ul a{
+	color:#fff
+}
+footer nav a{
+	color:#fff;
+}
+footer .brand-logo{
+	color:#fff;
+	font-size: 1.5em;
+}
+.row-flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.row-flex-baseline{
+    display: flex;
+    align-items: baseline;
 }
 /*Fonts*/
 @font-face {
-    font-family: Autografy;
-    src:url('./fonts/Autography.otf');
+	font-family: Autografy;
+	src:url('./fonts/Autography.otf');
 	font-display: swap;
 }
 @font-face {
-    font-family: Futura;
-    src: url('./fonts/Futura.ttc');
+	font-family: Futura;
+	src: url('./fonts/Futura.ttc');
 }
 @font-face {
-    font-family: Futura-Bold;
-    src: url('./fonts/Futura Bold.otf');
+	font-family: Futura-Bold;
+	src: url('./fonts/Futura Bold.otf');
+}
+@font-face {
+	font-family: Quant;
+	src: url('./fonts/Quant-Regular.otf');
+}
+@font-face {
+	font-family: Queen;
+	src: url('./fonts/QueenVictoria-Regular.otf');
 }
 /*Typo*/
 h1{
@@ -49,92 +93,114 @@ h1{
 	font-size: 7rem;
 	margin-top:.8em;
 }
+.title{
+	font-family: Futura-Bold;
+	letter-spacing: .2em;
+	font-size: 5rem;
+	margin-top: 0.8em;
+}
 .title1{
 	font-family: Autografy;
-    position: absolute;
-    top: -47%;
-    font-size: 5.5em;
-    font-weight: 100;
+	position: absolute;
+	top: -47%;
+	font-size: 5.5em;
+	font-weight: 100;
 }
 .title-branding{
 	font-family: 'Autografy';
-    font-size: 13em;
-    position: absolute;
-    right: -54%;
-    color: rgba(211, 101, 128, .2);
+	font-size: 13em;
+	position: absolute;
+	right: -54%;
+	color: rgba(211, 101, 128, .2);
 	z-index: -1;
 }
 .title-mural{
 	font-family: 'Autografy';
-    font-size: 13em;
-    position: absolute;
-    top: 0px;
-    left: -97%;
-    color: rgba(215, 133, 76,.2);
+	font-size: 13em;
+	position: absolute;
+	top: 0px;
+	left: -97%;
+	color: rgba(215, 133, 76,.2);
 	z-index: -1;
 }
 .title-typo{
 	font-family: 'Autografy';
-    font-size: 13em;
-    position: absolute;
-    top: 0px;
-    left: 31%;
-    color: rgba(128, 175, 175,.3);
+	font-size: 13em;
+	position: absolute;
+	top: 0px;
+	left: 31%;
+	color: rgba(128, 175, 175,.3);
 	z-index: -1;
+}
+.title-typo-1{
+	font-family: 'Autografy';
+    font-size: 10em;
+    position: absolute;
+    top: -191%;
+    left: 53%;
+    color: rgba(128, 175, 175,.3);
+    z-index: -1;
+}
+.title-typo-2{
+	font-family: 'Autografy';
+    font-size: 10em;
+    position: absolute;
+    bottom: -70%;
+    left: -48%;
+    color: rgba(128, 175, 175,.3);
+    z-index: -1;
 }
 .title-illu{
 	font-family: 'Autografy';
-    font-size: 13em;
-    position: absolute;
-    top: 0px;
-    right: 31%;
-    color: rgba(211, 101, 128, .2);
+	font-size: 13em;
+	position: absolute;
+	top: 0px;
+	right: 31%;
+	color: rgba(211, 101, 128, .2);
 	z-index: -1;
 }
 .title-collage{
-    font-family: 'Autografy';
-    font-size: 10em;
-    position: absolute;
-    top: -78%;
-    left: -33%;
-    color: rgba(215, 133, 76,.2);
-    z-index: -1;
-    margin: 0;
+	font-family: 'Autografy';
+	font-size: 10em;
+	position: absolute;
+	top: -78%;
+	left: -33%;
+	color: rgba(215, 133, 76,.2);
+	z-index: -1;
+	margin: 0;
 }
 .title-art{
-    font-family: 'Autografy';
-    font-size: 10em;
-    position: absolute;
-    top: -78%;
-    right: -20%;
-    color: rgba(215, 133, 76,.2);
-    z-index: -1;
-    margin: 0;
+	font-family: 'Autografy';
+	font-size: 10em;
+	position: absolute;
+	top: -78%;
+	right: -20%;
+	color: rgba(215, 133, 76,.2);
+	z-index: -1;
+	margin: 0;
 }
 .title-editorial{
-    font-family: 'Autografy';
-    font-size: 9em;
-    position: absolute;
-    top: 0px;
-    left: -136%;
-    color: rgba(128, 175, 175,.3);
-    z-index: -1;
+	font-family: 'Autografy';
+	font-size: 9em;
+	position: absolute;
+	top: 0px;
+	left: -136%;
+	color: rgba(128, 175, 175,.3);
+	z-index: -1;
 }
 .title-cat{
-    font-family: 'Futura-Bold';
-    letter-spacing: .1em;
+	font-family: 'Futura-Bold';
+	letter-spacing: .1em;
 }
 .text-center{text-align:center;}
 .text-right{text-align: right;}
 
 .title-cat-typo{
 	text-align: left;
-    font-family: 'Futura-Bold';
-    letter-spacing: .1em;
-    margin-top: 2em;
-    position: absolute;
-    left: -10%;
-}
+	font-family: 'Futura-Bold';
+	letter-spacing: .1em;
+	margin-top: 2em;
+	}
 
 .vertical-text{
 	writing-mode: vertical-lr;
@@ -143,86 +209,216 @@ h1{
 }
 .text-box-vertical{
 	position: absolute;
-    left: -10%;
-    bottom: 20%;
-}
+	left: -10%;
+	bottom: 20%;
+} 
+
+				/*TYPO*/
+				.projects-title{
+					font-family: Autografy;
+					font-size: 5em;
+					position: absolute;
+					top: 14%;
+					right: 43%;
+				}
+				.intro-p{
+					background-color: rgba(211, 101, 128,.7);
+					font-family: 'Futura';
+					margin: auto;
+					padding: 5em 30%;
+				}
+				.subtitle{
+					font-family: 'Futura-Bold';
+					font-size: 2.1em;
+					letter-spacing: 4px;
+				}
+				.img-t-1{
+					width: 60%;
+					position: absolute;
+					left: 0;
+				}
+				.img-t-2{
+					width: 44%;
+					position: absolute;
+					right: 0;
+					bottom: 10%;
+					height: 55%;
+					object-fit: cover;
+				}
+				.a-ex{
+					position: absolute;
+					right: 0;
+					font-family: Queen;
+					font-size: 9em;
+					top: -55%;
+					left: 3.7em;
+				}
+				.b-ex{
+					position: absolute;
+					right: 13%;
+					font-family: 'Queen';
+					font-size: 9em;
+					top: -40%;
+					rotate: 8deg;
+				}
+				.c-ex{
+					position: absolute;
+					right: 3%;
+					font-size: 9em;
+					font-family: 'Queen';
+					rotate: -7deg;
+					top: -48%;
+				}
+				.q-ex{
+					position: absolute;
+					bottom: -9%;
+					font-family: 'Queen';
+					font-size: 4em;
+					left: 2%;
+				}
+				.t-ex{
+					text-align: center;
+					font-family: 'Queen';
+					font-size: 2.3em;
+					margin: 0;
+				}
+				.rotate-9{
+					rotate: -9deg;
+				}
+				.figure1{
+					width: 110px;
+					margin-left: 4em;
+					margin-bottom: 0.5em;
+					rotate: 10deg;
+				}
+				.figure2{
+					float: right;
+					width: 110px;
+					margin-left: 4em;
+					margin-bottom: 0.5em;
+					rotate: 189deg;
+				}
+				.ex-letters{
+					font-family: 'Queen';
+					margin: auto;
+					font-size: 2em;
+					letter-spacing: -2px;
+				}
+				.bg-2-container{
+					background-color: rgb(128, 175, 175,.4);
+					padding: 2em 0;
+    				text-align: center;
+				}
+				.y-ex{
+					font-family: 'Quant';
+					font-size: 15em;
+					margin: 0;
+					text-align: right;
+					line-height: 200px;
+				}
+				.num-ex{
+					font-family: 'Quant';
+					font-size: 4em;
+					text-align: center;
+					margin: 0;
+					line-height: 100px;
+				}
+				.title-serif{
+					font-family: 'Autografy';
+					font-size: 10em;
+					position: absolute;
+					bottom: -40%;
+					right: -15%;
+					color: rgba(128, 175, 175,.3);
+					z-index: -1;
+					margin: 0;
+				}
+
+
+.futura{font-family: Futura;}
+.futura-bold{font-family: Futura-Bold;}
+.quant{font-family: Quant;}
 
 .fz-2-5{font-size:2.5em;}
 .fz-2-7{font-size: 2.7em;}
+.fz-3{font-size: 3em;}
+
+.lh-1{line-height: 1em;;}
 /*Shapes*/
 .box1{
 	position: absolute;
-    top: 42%;
-    width: 500px;
-    background-color: rgba(128, 175, 175, .45);
-    padding: 3em;
-    font-family: 'Futura';
-    font-weight: 900;
+	top: 42%;
+	width: 500px;
+	background-color: rgba(128, 175, 175, .45);
+	padding: 3em;
+	font-family: 'Futura';
+	font-weight: 900;
+	z-index: -1;
 }
 hr{
 	border: 2px solid #FFF;
-    width: 100px;
-    margin: initial;
+	width: 100px;
+	margin: initial;
 }
 .square-1{
 	position: absolute;
-    border: 3px solid rgba(211, 101, 128, .5);
-    height: 186px;
-    width: 281px;
-    top: -1.75rem;
-    left: -1rem;
-    z-index: -1;
+	border: 3px solid rgba(211, 101, 128, .5);
+	height: 64%;
+	width: 67%;
+	top: -1.75rem;
+	left: -1rem;
+	z-index: -1;
 }
 .square-2{
 	position: absolute;
-    border: 3px solid rgba(215, 133, 76,.5);
-    height: 186px;
-    width: 281px;
-    top: -1.75rem;
-    right: -0.75rem;
-    z-index: -1;
+	border: 3px solid rgba(215, 133, 76,.5);
+	height: 57%;
+	width: 46%;
+	top: -1.75rem;
+	right: -0.75rem;
+	z-index: -1;
 }
 .square-3{
 	position: absolute;
-    border: 3px solid rgba(128, 175, 175,.9);
-    height: 244px;
-    width: 248px;
-    top: -1.75rem;
-    left: 3rem;
-    z-index: -1;
+	border: 3px solid rgba(128, 175, 175,.9);
+	height: 104%;
+	width: 75%;
+	top: -1.75rem;
+	left: 3rem;
+	z-index: -1;
 }
 .square-4{
 	position: absolute;
-    border: 3px solid rgba(211, 101, 128, .5);
-    height: 244px;
-    width: 248px;
-    top: -1.75rem;
-    right: 13%;
-    z-index: -1;
+	border: 3px solid rgba(211, 101, 128, .5);
+	height: 77%;
+	width: 59%;
+	top: -1.75rem;
+	right: 15%;
+	z-index: -1;
 }
 .square-5{
 	position: absolute;
-    border: 3px solid rgba(215, 133, 76,.9);
-    height: 185px;
-    width: 185px;
-    top: -1.75rem;
-    left: -1rem;
-    z-index: -1;
+	border: 3px solid rgba(215, 133, 76,.9);
+	height: 73%;
+	width: 70%;
+	top: -0.75rem;
+	left: -0.5em;
+	z-index: -1;
 }
 .square-6{
-    position: absolute;
-    border: 3px solid rgba(128, 175, 175,.9);
-    height: 211px;
-    width: 233px;
-    top: -1.75rem;
-    right: -1rem;
-    z-index: -1;
+	position: absolute;
+	border: 3px solid rgba(128, 175, 175,.9);
+	height: 211px;
+	width: 233px;
+	top: -1.75rem;
+	right: -1rem;
+	z-index: -1;
 }
 /*Media*/
 
 @media all and (min-width: 706px) and (max-width: 1350px){
 	.box1{
-		top:45%;
+		top:40%;
 		right:10%;
 	}
 	
@@ -265,21 +461,67 @@ hr{
 		font-size: 5em;
 		top: -43%;
 	}
+	footer ul{display:grid;}
+	footer ul li{margin-top: 2em;}
+	nav .brand-logo{font-size: 1.2em;}
 }
+
 
 /*Margin-padding*/
 .m2--5{margin: 2em 0.5em 0 0}
+.mt-4{margin:4em 0 0;}
+
 .mb-130{margin-bottom:130px;}
+
+.mt--7{margin-top: .7em;}
+.mt-7-rz{margin-top:7em}
+.mt-4{margin-top: 4em;}
+.m-3{margin:3em 0}
+.mt-2{margin-top: 2em;}
+.mt-10{margin-top: 10%}
+.m-0{margin: 0;}
+
+.p-3{padding: 3em;}
+.p-3-0{padding: 3em 0;}
+.p-0-4{padding:0 4em;}
 /*Width-height*/
 .h700{height: 700px;}
+.h600{height: 600px;}
 .h500{height: 500px;}
 .h450{height: 450px;}
+.h400{height: 400px;}
 .h300{height: 300px;}
 .h250{height: 250px;}
+.h230{height: 230px;}
+.h100{height: 100px;}
 
 .w-100{width: 100%;}
+.w-90{width: 90%;}
 .w80{width: 80%;}
 
 /*Position*/
 .relative{position: relative;}
 .float-right{float:right;}
+
+
+.justify{text-align: justify;}
+.obj-cover{object-fit: cover;}
+
+@media all and (min-width: 0px) and (max-width: 700px){
+	.text-box-vertical {
+		left: -5%;
+		bottom: 40%;
+	}
+	.fz-2-5{font-size: 2em;}
+	.fz-2-7{font-size: 2.4em;}
+	.mb-4rz{margin-bottom: 4em;}
+	.m2--5{margin:0 0 4em 0;}
+	.mt-7-rz{margin-top:0}
+	.h500{height: auto;}
+	.mb-130{margin-bottom: 12em;}
+	.title-cat-typo{
+		margin-top: 4.5em;
+		margin-bottom: 4em;
+	}
+
+}
