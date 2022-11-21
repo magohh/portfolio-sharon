@@ -60,6 +60,15 @@ footer .brand-logo{
 	justify-content: center;
 	align-items: center;
 }
+.row-flex-rz{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
 .row-flex-baseline{
     display: flex;
     align-items: baseline;
@@ -97,7 +106,6 @@ h1{
 	font-family: Futura-Bold;
 	letter-spacing: .2em;
 	font-size: 5rem;
-	margin-top: 0.8em;
 }
 .title1{
 	font-family: Autografy;
@@ -221,6 +229,7 @@ h1{
 					top: 14%;
 					right: 43%;
 				}
+				
 				.intro-p{
 					background-color: rgba(211, 101, 128,.7);
 					font-family: 'Futura';
@@ -238,44 +247,25 @@ h1{
 					left: 0;
 				}
 				.img-t-2{
-					width: 44%;
+					width: 46.11%;
 					position: absolute;
 					right: 0;
-					bottom: 10%;
-					height: 55%;
+					top: -185%;
+					height: 300px;
 					object-fit: cover;
 				}
-				.a-ex{
+				.abc-img{
 					position: absolute;
-					right: 0;
-					font-family: Queen;
-					font-size: 9em;
-					top: -55%;
-					left: 3.7em;
-				}
-				.b-ex{
-					position: absolute;
-					right: 13%;
-					font-family: 'Queen';
-					font-size: 9em;
-					top: -40%;
-					rotate: 8deg;
-				}
-				.c-ex{
-					position: absolute;
-					right: 3%;
-					font-size: 9em;
-					font-family: 'Queen';
-					rotate: -7deg;
-					top: -48%;
+					top: -38%;
+					width: 40%;
+					padding: 2em;
 				}
 				.q-ex{
-					position: absolute;
-					bottom: -9%;
 					font-family: 'Queen';
 					font-size: 4em;
-					left: 2%;
+					margin: 0;
 				}
+				
 				.t-ex{
 					text-align: center;
 					font-family: 'Queen';
@@ -333,7 +323,44 @@ h1{
 					z-index: -1;
 					margin: 0;
 				}
-
+				@media all and (min-width:0px) and (max-width: 800px){
+					.title-typo-1{
+						font-size: 5em;
+						top: -57%;
+						left: 36%;
+					}
+				}   
+				
+				@media all and (min-width:600px) and (max-width: 685px){
+					.img-t-2{
+						top: -252%;
+						height: 199px;
+					}
+					.q-ex{font-size: 2.5em;}
+					
+				}
+				@media all and (min-width:686px) and (max-width: 897px){
+					.img-t-2{
+						top: -259%;
+						height: 220px;
+					}
+					.q-ex{font-size: 3em;}
+				}
+				@media all and (min-width:898px) and (max-width: 1129px){
+					.img-t-2{
+						top:-252%;
+						height: 250px;
+					}
+					.q-ex{font-size: 3.5em;}
+				}
+				.abc-small{
+					width: 60%;
+					margin: auto;
+				}
+				.img-ty{
+					height: 250px;
+    				object-fit: cover;
+				}
 
 .futura{font-family: Futura;}
 .futura-bold{font-family: Futura-Bold;}
@@ -423,6 +450,7 @@ hr{
 	}
 	
 }
+
 @media all and (min-width: 601px) and (max-width: 705px){
 	h1{font-size:6rem;}
 	.box1{
@@ -484,6 +512,22 @@ hr{
 .p-3{padding: 3em;}
 .p-3-0{padding: 3em 0;}
 .p-0-4{padding:0 4em;}
+.p-0-4-rz{padding:0 4em;}
+			@media all and (min-width:0px) and (max-width: 599px){
+				.q-ex{font-size: 2.3em;}
+				.flex-rz{
+					display: flex;
+					align-items: center;
+				}
+				.row-flex-rz{
+					display: block;
+				}
+				.figure1{
+					margin-left: -25em;
+					margin-top: 2em;
+				}
+				.p-0-4-rz{padding: 0;}
+			} 
 /*Width-height*/
 .h700{height: 700px;}
 .h600{height: 600px;}
