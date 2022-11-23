@@ -55,6 +55,7 @@ footer .brand-logo{
 	color:#fff;
 	font-size: 1.5em;
 }
+footer ul li img:last-child{height: 15px;}
 .row-flex{
 	display: flex;
 	justify-content: center;
@@ -113,6 +114,23 @@ h1{
 	top: -47%;
 	font-size: 5.5em;
 	font-weight: 100;
+}
+@media all and (min-width: 0px) and (max-width: 330px){
+    .title1{
+		font-size: 3.5em;
+   		top: -23%;}
+}
+@media all and (min-width: 331px) and (max-width: 371px){
+    .title1{
+		font-size: 3em;
+		top: -17%;
+	}
+}
+@media all and (min-width: 372px) and (max-width: 469px){
+    .title1{
+		font-size: 4em;
+		top: -27%;
+	}
 }
 .title-branding{
 	font-family: 'Autografy';
@@ -387,6 +405,48 @@ hr{
 	width: 100px;
 	margin: initial;
 }
+.ball1{
+	position: absolute;
+    left: -42%;
+    top: 2%;
+	z-index: -2;
+}
+.ball2{
+	position: absolute;
+    right: -199%;
+    top: -19%;
+	z-index: -1;
+}
+.ball3{
+	position: absolute;
+    left: -38%;
+    z-index: -1;
+    top: -23%;
+}
+.ball4{
+	position: absolute;
+    right: -196%;
+    top: -410%;
+	z-index: -1;
+}
+.ball5{
+	position: absolute;
+    left: -180%;
+    top: -12%;
+	z-index: -1;
+}
+.ball6{
+	position: absolute;
+    bottom: -10%;
+    right: -47%;
+    z-index: -1;
+}
+.ball7{
+	position: absolute;
+    left: -189%;
+    top: -44%;
+    z-index: -1;
+}
 .square-1{
 	position: absolute;
 	border: 3px solid rgba(211, 101, 128, .5);
@@ -442,10 +502,22 @@ hr{
 	z-index: -1;
 }
 /*Media*/
+@media all and (min-width: 0px) and (max-width: 350px){
+	h1{
+		font-size: 3rem;
+	}
+	
+}
+@media all and (min-width: 351px) and (max-width: 601px){
+	h1{
+		font-size: 4rem;
+	}
+	
+}
 
 @media all and (min-width: 706px) and (max-width: 1350px){
 	.box1{
-		top:40%;
+		top:49%;
 		right:10%;
 	}
 	
@@ -454,14 +526,14 @@ hr{
 @media all and (min-width: 601px) and (max-width: 705px){
 	h1{font-size:6rem;}
 	.box1{
-		top:36%;
+		top:47%;
 	}
 }
 
 @media all and (min-width: 511px) and (max-width: 600px){
 	h1{font-size: 5rem;}
 	.box1{
-		top:34%;
+		top:47%;
 	}
 }
 
@@ -485,18 +557,21 @@ hr{
 
 @media all and (min-width: 0px) and (max-width: 469px){
 
-	.title1{
-		font-size: 4em;
-		top: -30%;
-	}
 	footer ul{display:grid;}
 	footer ul li{margin-top: 2em;}
-	nav .brand-logo{font-size: 1.2em;}
+	nav .brand-logo{font-size: 1em;}
 	.box1{
 		width: 100%;
 		margin-top:4em;
+		top:28%;
 	}
+	.title-cat-typo{margin-top: .5em;}
+	.m1-rz{margin:1em 0;}
+	.justify-center-rz{justify-content: center;}
 }
+
+
+
 
 
 /*Margin-padding*/
@@ -508,6 +583,10 @@ hr{
 .mt--7{margin-top: .7em;}
 .mt-7-rz{margin-top:7em}
 .mt-4{margin-top: 4em;}
+.mt-4-rz{margin-top: 4em;}
+@media all and (min-width: 0px) and (max-width: 600px){
+	.mt-4-rz{margin-top: 0;}
+}
 .m-3{margin:3em 0}
 .mt-2{margin-top: 2em;}
 .mt-10{margin-top: 10%}
@@ -537,13 +616,31 @@ hr{
 .h600{height: 600px;}
 .h500{height: 500px;}
 .h450{height: 450px;}
+.h450-rz{height: 450px;}
+@media all and (min-width: 0px) and (max-width: 469px){
+	.h450-rz{
+		height: 350px;
+	}
+}
 .h400{height: 400px;}
 .h300{height: 300px;}
+.h300-rz{height: 300px;}
+@media all and (min-width: 0px) and (max-width: 469px){
+	.h300-rz{
+		height: 210px;
+	}
+}
 .h250{height: 250px;}
 .h230{height: 230px;}
 .h100{height: 100px;}
 
 .w-100{width: 100%;}
+.w-100-rz{width: 100%;}
+@media all and (min-width: 0px) and (max-width: 469px){
+	.w-100-rz{
+		width: 80%;
+	}
+}
 .w-90{width: 90%;}
 .w80{width: 80%;}
 
@@ -566,10 +663,10 @@ hr{
 	.m2--5{margin:0 0 4em 0;}
 	.mt-7-rz{margin-top:0}
 	.h500{height: auto;}
-	.mb-130{margin-bottom: 12em;}
+	/*.mb-130{margin-bottom: 12em;}
 	.title-cat-typo{
 		margin-top: 4.5em;
 		margin-bottom: 4em;
-	}
+	}*/
 
 }
