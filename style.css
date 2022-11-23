@@ -232,6 +232,7 @@ h1{
 	writing-mode: vertical-lr;
 	transform: rotate(180deg);
 	display: table-cell;
+	line-height:40px;
 }
 .text-box-vertical{
 	position: absolute;
@@ -295,7 +296,7 @@ h1{
 				}
 				.figure1{
 					width: 110px;
-					margin-left: 4em;
+					margin-left: -20em;
 					margin-bottom: 0.5em;
 					rotate: 10deg;
 				}
@@ -341,11 +342,22 @@ h1{
 					z-index: -1;
 					margin: 0;
 				}
+				.pro-title{
+					width: 20%;
+					padding-bottom: 2em;
+				}
 				@media all and (min-width:0px) and (max-width: 800px){
 					.title-typo-1{
 						font-size: 5em;
 						top: -57%;
 						left: 36%;
+					}
+					.title{
+						font-size: 3.5em;
+					}
+					.pro-title{padding-bottom:1em;}
+					.row-flex-baseline{
+						display: block;
 					}
 				}   
 				
@@ -379,6 +391,7 @@ h1{
 					height: 250px;
     				object-fit: cover;
 				}
+				
 
 .futura{font-family: Futura;}
 .futura-bold{font-family: Futura-Bold;}
@@ -557,9 +570,6 @@ hr{
 
 @media all and (min-width: 0px) and (max-width: 469px){
 
-	footer ul{display:grid;}
-	footer ul li{margin-top: 2em;}
-	nav .brand-logo{font-size: 1em;}
 	.box1{
 		width: 100%;
 		margin-top:4em;
@@ -567,6 +577,12 @@ hr{
 	}
 	.title-cat-typo{margin-top: .5em;}
 	.m1-rz{margin:1em 0;}
+}
+@media all and (min-width: 0px) and (max-width: 611px){
+
+	footer ul{display:grid;}
+	footer ul li{margin-top: 2em;}
+	nav .brand-logo{font-size: 1em;}
 	.justify-center-rz{justify-content: center;}
 }
 
@@ -584,6 +600,7 @@ hr{
 .mt-7-rz{margin-top:7em}
 .mt-4{margin-top: 4em;}
 .mt-4-rz{margin-top: 4em;}
+
 @media all and (min-width: 0px) and (max-width: 600px){
 	.mt-4-rz{margin-top: 0;}
 }
@@ -606,7 +623,7 @@ hr{
 					display: block;
 				}
 				.figure1{
-					margin-left: -25em;
+					margin-left: -20em;
 					margin-top: 2em;
 				}
 				.p-0-4-rz{padding: 0;}
@@ -614,6 +631,14 @@ hr{
 /*Width-height*/
 .h700{height: 700px;}
 .h600{height: 600px;}
+.h600-rz{height: 600px;}
+@media all and (min-width: 0px) and (max-width: 600px){
+	.h600-rz{
+		height: 300px;
+	}
+	.y-ex{text-align: center;}
+	.mb2-rz{margin-bottom:2em}
+}
 .h500{height: 500px;}
 .h450{height: 450px;}
 .h450-rz{height: 450px;}
@@ -627,7 +652,7 @@ hr{
 .h300-rz{height: 300px;}
 @media all and (min-width: 0px) and (max-width: 469px){
 	.h300-rz{
-		height: 210px;
+		height: 240px;
 	}
 }
 .h250{height: 250px;}
