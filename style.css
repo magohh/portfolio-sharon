@@ -2,7 +2,7 @@
 body{
 	background-image: url("./img/fondo-sm.png");
 	background-repeat: repeat;
-	background-size:cover;
+	background-size:100%;
 	overflow-x: hidden;
 }
 
@@ -111,25 +111,51 @@ h1{
 .title1{
 	font-family: Autografy;
 	position: absolute;
-	top: -47%;
+	top: -35%;
 	font-size: 5.5em;
 	font-weight: 100;
 }
-@media all and (min-width: 0px) and (max-width: 330px){
+.title-cat-typo a{color:#000}
+@media all and (min-width: 0px) and (max-width: 352px){
     .title1{
 		font-size: 3.5em;
-   		top: -23%;}
-}
-@media all and (min-width: 331px) and (max-width: 371px){
-    .title1{
 		font-size: 3em;
-		top: -17%;
+		top: -12%;
 	}
 }
-@media all and (min-width: 372px) and (max-width: 469px){
+@media all and (min-width: 353px) and (max-width: 367px){
+    .title1{
+		font-size: 3.5em;
+		top: -17%;
+		right: 6%;
+	}
+}
+@media all and (min-width: 368px) and (max-width: 429px){
     .title1{
 		font-size: 4em;
-		top: -27%;
+		top: -20%;
+		right: 7%;
+	}
+}
+@media all and (min-width: 429px) and (max-width: 469px){
+    .title1{
+		font-size: 4em;
+		top: -24%;
+    	right: 16%;
+	}
+}
+@media all and (min-width: 470px) and (max-width: 510px){
+    .title1{
+		font-size: 4em;
+		top: -24%;
+		right: 14%;
+	}
+}
+@media all and (min-width: 511px) and (max-width: 991px){
+    .title1{
+		font-size: 5em;
+		top: -34%;
+		right: 13%;
 	}
 }
 .title-branding{
@@ -250,7 +276,6 @@ h1{
 				}
 				
 				.intro-p{
-					background-color: rgba(211, 101, 128,.7);
 					font-family: 'Futura';
 					margin: auto;
 					padding: 5em 30%;
@@ -397,6 +422,7 @@ h1{
 .futura-bold{font-family: Futura-Bold;}
 .quant{font-family: Quant;}
 
+.fz-2{font-size:2em;}
 .fz-2-5{font-size:2.5em;}
 .fz-2-7{font-size: 2.7em;}
 .fz-3{font-size: 3em;}
@@ -405,7 +431,7 @@ h1{
 /*Shapes*/
 .box1{
 	position: absolute;
-	top: 42%;
+	top: 35%;
 	width: 500px;
 	background-color: rgba(128, 175, 175, .45);
 	padding: 3em;
@@ -528,10 +554,11 @@ hr{
 	
 }
 
-@media all and (min-width: 706px) and (max-width: 1350px){
+
+@media all and (min-width: 706px) and (max-width: 1300px){
 	.box1{
-		top:49%;
-		right:10%;
+		top:50%;
+		right:-10%;
 	}
 	
 }
@@ -560,20 +587,28 @@ hr{
 		width: 100%;
 		position: relative;
 	}
-	.title1{
-		font-family: Autografy;
-		font-size: 4em;
-		font-weight: 100;
-		top:-32%;
-	}
 }
+@media all and (min-width: 0px) and (max-width: 369px){
 
-@media all and (min-width: 0px) and (max-width: 469px){
+	.box1{
+		margin-top:.5em;
+
+	}
+
+}
+@media all and (min-width: 370px) and (max-width: 469px){
 
 	.box1{
 		width: 100%;
 		margin-top:4em;
 		top:28%;
+	}
+
+}
+@media all and (min-width: 0px) and (max-width: 469px){
+
+	.box1{
+		width: 100%;
 	}
 	.title-cat-typo{margin-top: .5em;}
 	.m1-rz{margin:1em 0;}
@@ -595,14 +630,19 @@ hr{
 .mt-4{margin:4em 0 0;}
 
 .mb-130{margin-bottom:130px;}
+.mb-0{margin-bottom:0;}
 
 .mt--7{margin-top: .7em;}
 .mt-7-rz{margin-top:7em}
 .mt-4{margin-top: 4em;}
 .mt-4-rz{margin-top: 4em;}
+.mt-4-r2{margin-top: 0;}
 
 @media all and (min-width: 0px) and (max-width: 600px){
 	.mt-4-rz{margin-top: 0;}
+}
+@media all and (min-width: 0px) and (max-width: 600px){
+	.mt-4-r2{margin-top: 4em;}
 }
 .m-3{margin:3em 0}
 .mt-2{margin-top: 2em;}
@@ -629,6 +669,7 @@ hr{
 				.p-0-4-rz{padding: 0;}
 			} 
 /*Width-height*/
+.h850{height: 850px;}
 .h700{height: 700px;}
 .h600{height: 600px;}
 .h600-rz{height: 600px;}
@@ -678,10 +719,7 @@ hr{
 .obj-cover{object-fit: cover;}
 
 @media all and (min-width: 0px) and (max-width: 700px){
-	.text-box-vertical {
-		left: -5%;
-		bottom: 40%;
-	}
+	
 	.fz-2-5{font-size: 2em;}
 	.fz-2-7{font-size: 2.4em;}
 	.mb-4rz{margin-bottom: 4em;}
@@ -695,3 +733,23 @@ hr{
 	}*/
 
 }
+@media all and (min-width: 0px) and (max-width: 600px){
+	.text-box-vertical {
+		left: -2%;
+		bottom: 40%;
+		
+	}
+}
+@media all and (min-width: 601px) and (max-width: 701px){
+	.text-box-vertical {
+		left: -13%;
+		bottom: 40%;
+		
+	}
+}
+
+.bg-light-1{background-color: rgba(211, 101, 128,.7);}
+.bg-light-2{background-color: rgba(128, 175, 175, .45);}
+									.pro-title-2{
+										width: 20%;
+									}
