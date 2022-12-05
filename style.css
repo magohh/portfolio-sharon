@@ -422,6 +422,7 @@ h1{
 .futura-bold{font-family: Futura-Bold;}
 .quant{font-family: Quant;}
 
+.fz-1-2{font-size: 1.2em;}
 .fz-2{font-size:2em;}
 .fz-2-5{font-size:2.5em;}
 .fz-2-7{font-size: 2.7em;}
@@ -630,6 +631,8 @@ hr{
 .mt-4{margin:4em 0 0;}
 
 .mb-130{margin-bottom:130px;}
+.mb-5{margin-bottom:5em;}
+.mb-2{margin-bottom:2em;}
 .mb-0{margin-bottom:0;}
 
 .mt--7{margin-top: .7em;}
@@ -637,6 +640,7 @@ hr{
 .mt-4{margin-top: 4em;}
 .mt-4-rz{margin-top: 4em;}
 .mt-4-r2{margin-top: 0;}
+.mt-0{margin-top: 0;}
 
 @media all and (min-width: 0px) and (max-width: 600px){
 	.mt-4-rz{margin-top: 0;}
@@ -645,6 +649,7 @@ hr{
 	.mt-4-r2{margin-top: 4em;}
 }
 .m-3{margin:3em 0}
+
 .mt-2{margin-top: 2em;}
 .mt-10{margin-top: 10%}
 .m-0{margin: 0;}
@@ -652,6 +657,7 @@ hr{
 .p-3{padding: 3em;}
 .p-3-0{padding: 3em 0;}
 .p-0-4{padding:0 4em;}
+.p-10{padding: 10px;}
 .p-0-4-rz{padding:0 4em;}
 			@media all and (min-width:0px) and (max-width: 599px){
 				.q-ex{font-size: 2.3em;}
@@ -698,6 +704,7 @@ hr{
 }
 .h250{height: 250px;}
 .h230{height: 230px;}
+.h200{height: 200px;}
 .h100{height: 100px;}
 
 .w-100{width: 100%;}
@@ -708,7 +715,11 @@ hr{
 	}
 }
 .w-90{width: 90%;}
+.w99{width: 99%;}
 .w80{width: 80%;}
+.w-70{width: 70%;}
+.w-40{width: 40%;}
+.w-30{width: 30%;}
 
 /*Position*/
 .relative{position: relative;}
@@ -750,6 +761,198 @@ hr{
 
 .bg-light-1{background-color: rgba(211, 101, 128,.7);}
 .bg-light-2{background-color: rgba(128, 175, 175, .45);}
+									
 									.pro-title-2{
 										width: 20%;
+									}
+									.ball2-t{
+										position: absolute;
+										left: -42%;
+										top: -5%;
+										z-index: -1;
+									}
+									.ball1-t{
+										position: absolute;
+										top: -82%;
+										right: -42%;
+										z-index: -1;
+									}
+									.ball3-t{
+										position: absolute;
+										top: -67%;
+										left: -47%;
+										z-index: -1;
+									}
+									.ball1-t2{
+										z-index: -1;
+										position: absolute;
+										top: -31%;
+										right: -48%;
+									}
+									.ball1-t3{
+										z-index: -1;
+										position: absolute;
+										top: -68%;
+										left: -47%;
+									}
+									.square3{
+										height: 100px;
+										position: absolute;
+										top: 50%;
+										left: 0;
+										right: 0;
+										margin: auto;
+										z-index: -1;
+									}
+									.square2{
+										height: 100px;
+										position: absolute;
+										bottom: 27%;
+										right: -3%;
+										z-index: -1;
+									}
+									.square1{
+										height: 100px;
+										position: absolute;
+										top: -61%;
+										left: 34%;
+										z-index: -1;
+									}
+									.a-text{
+										position: absolute;
+										z-index: -1;
+										left: -12%;
+										bottom: 8%;
+										height: 200px;
+									}
+									.mitika-text{
+										font-family: 'Autografy';
+										font-size: 11em;
+										/* position: absolute; */
+										/* top: -191%; */
+										/* left: 53%; */
+										color: rgba(128, 175, 175,.3);
+										z-index: -1;
+										text-align: center;
+										margin: 0;
+									}
+									.hr-2{
+										border: 2px solid #80AFAF;
+										width: 222px;
+										margin: initial;
+										position: absolute;
+										top: 50%;
+										right: 0;
+									}
+									.hr-3{
+										border: 2px solid #D7854C;
+										width: 110px;
+										margin: initial;
+										position: absolute;
+										top: 50%;
+									}
+									.hr4{
+										border: 2px solid #D36580;
+										width: 279px;
+										margin: initial;
+										position: absolute;
+										top: 50%;
+										right: 0;
+									}
+									.hr5{
+										border: 2px solid #80AFAF;
+										width: 50%;
+										margin: initial;
+										position: absolute;
+										top: 50%;
+										right: 0;
+									}
+									.hr6{
+										border: 2px solid #D7854C;
+										width: 42%;
+										margin: initial;
+										position: absolute;
+										top: 40%;
+										right: -43%;
+									}
+									.cabos-text{
+										font-family: 'Autografy';
+										font-size: 11em;
+										color: rgba(215, 133, 76,.2);
+										text-align: left;
+										margin: 0 1em;
+									}
+									.img-cabos{
+										height: 150px;
+										position: absolute;
+										bottom: 19%;
+										right: 0;
+										z-index: -1;
+									}
+									.square4{
+										position: absolute;
+										top: 50%;
+										left: 0;
+										right: 0;
+										margin: auto;
+										z-index: -1;
+									}
+									.square5{
+										height: 100px;
+										position: absolute;
+										top: -23%;
+										right: 10%;
+										z-index: -1;
+									}
+									.square6{
+										height: 100px;
+										position: absolute;
+										left: 10%;
+										bottom: 79%;
+										z-index: -1;
+									}
+									.hub-text{
+										font-family: 'Autografy';
+										font-size: 11em;
+										color: rgba(211, 101, 128, .2);
+										text-align: right;
+										margin: 0 2em;
+									}
+									.bella1-text{
+										font-family: 'Autografy';
+										font-size: 11em;
+										color: rgba(128, 175, 175,.3);
+										z-index: -1;
+										text-align: left;
+										margin: 0;
+										line-height: 130px;
+									}
+									.bella2-text{
+										font-family: 'Autografy';
+										font-size: 11em;
+										color: rgba(128, 175, 175,.3);
+										z-index: -1;
+										text-align: left;
+										margin: 0 1em;
+										line-height: 50px;
+									}
+									.bootsy-text{
+										font-family: 'Autografy';
+										font-size: 11em;
+										color: rgba(215, 133, 76,.2);
+										z-index: -1;
+										margin: 0 1em;
+										line-height: 50px;
+										position: absolute;
+										top: 21%;
+										right: -18%;
+									}
+									.img-bootsy{
+										width: 50%;
+										height: 150px;
+										position: absolute;
+										bottom: 14%;
+										left: 6%;
+										z-index: -1;
+										object-fit: cover;
 									}
