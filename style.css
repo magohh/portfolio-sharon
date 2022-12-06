@@ -634,13 +634,16 @@ hr{
 .mb-5{margin-bottom:5em;}
 .mb-2{margin-bottom:2em;}
 .mb-0{margin-bottom:0;}
-
+.mb-1-rz{margin-bottom: 0em;}
+.mb-2-rz{margin-bottom: 0em;}
+.mb-4-rz{margin-bottom: 0em;}
 .mt--7{margin-top: .7em;}
 .mt-7-rz{margin-top:7em}
 .mt-4{margin-top: 4em;}
 .mt-4-rz{margin-top: 4em;}
 .mt-4-r2{margin-top: 0;}
 .mt-0{margin-top: 0;}
+.m-auto-rz{margin:auto;}
 
 @media all and (min-width: 0px) and (max-width: 600px){
 	.mt-4-rz{margin-top: 0;}
@@ -765,6 +768,12 @@ hr{
 									.pro-title-2{
 										width: 20%;
 									}
+									@media all and (min-width: 0px) and (max-width: 600px){
+										.pro-title-2{
+											width: 30%;
+										}
+										.mb-1-rz{margin-bottom: 1em;}
+									}
 									.ball2-t{
 										position: absolute;
 										left: -42%;
@@ -875,6 +884,7 @@ hr{
 										top: 40%;
 										right: -43%;
 									}
+									
 									.cabos-text{
 										font-family: 'Autografy';
 										font-size: 11em;
@@ -911,6 +921,43 @@ hr{
 										bottom: 79%;
 										z-index: -1;
 									}
+									.square7{
+										height: 100px;
+										position: absolute;
+										left: 51%;
+										bottom: -24%;
+										z-index: -1;
+									
+									}
+									.square8{
+										height: 100px;
+										position: absolute;
+										left: 23%;
+										bottom: -31%;
+										z-index: -1;
+									}
+									.square9{
+										height: 100px;
+										position: absolute;
+										left: 36%;
+										bottom: -24%;
+										z-index: -1;
+									}
+									.square10{
+										height: 100px;
+										position: absolute;
+										left: 17%;
+										bottom: -24%;
+										z-index: -1;
+									}
+									.square11{
+										width: 100px;
+										position: absolute;
+										right: 0%;
+										bottom: 3%;
+										z-index: -1;
+									}
+									
 									.hub-text{
 										font-family: 'Autografy';
 										font-size: 11em;
@@ -956,3 +1003,27 @@ hr{
 										z-index: -1;
 										object-fit: cover;
 									}
+									@media all and (min-width: 0px) and (max-width: 600px){
+										.pro-title-2{
+											width: 30%;
+										}
+										.hr-2{top: 77%;}
+										.hr4{width: 120px;}
+										.hr6{width: 60%;}
+										.cabos-text{line-height: 150px;}
+										.hub-text{margin: 0 .1em;text-align:center;}
+										.bella1-text{line-height: 205px;}
+										.mb-2-rz{margin-bottom: 2em;}
+										.mb-4-rz{margin-bottom:4em}
+										.flex-sm{display: flex; align-items: center;}
+										.mt-200-rz{margin-top: 200px;}
+										.img-bootsy{
+											width: 90%;
+											bottom: 14%;
+											left: 6%;
+											z-index: -1;
+											object-fit: cover;
+											margin-bottom: 1em;
+										}
+									}
+								
