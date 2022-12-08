@@ -1054,7 +1054,7 @@ hr{
 	font-size: 13em;
 	position: absolute;
 	left: -8%;
-	color: rgba(128, 175, 175,.3);
+	color: rgba(215, 133, 76,.2);
 	z-index: -1;
 	top: -86%;
 }
@@ -1115,7 +1115,7 @@ hr{
     font-size: 11em;
     position: absolute;
     left: -13%;
-    color: rgba(222, 92, 128,.3);
+    color: rgba(211, 101, 128, .2);
     z-index: -1;
     top: -94%;
 }
@@ -1132,4 +1132,58 @@ hr{
 	font-family: 'Futura';
     margin: auto;
     padding: 5em 20% 8em;
+}
+.ball1-m{
+	position: absolute;
+    right: -41%;
+    top: -18%;
+    z-index: -2;
+}
+.ball3-m{
+	position: absolute;
+    right: -16%;
+    z-index: -1;
+    top: -24%
+}
+.ball4-m{
+	position: absolute;
+    left: -41%;
+    top: -18%;
+    z-index: -2;
+}
+.ball5-m{
+	position: absolute;
+    right: -41%;
+    top: -18%;
+    z-index: -2;
+}
+.ball6-m{
+	position: absolute;
+    left: -45%;
+    z-index: -1;
+    top: -110%;
+}
+.ball1-ca{
+	position: absolute;
+    right: -52%;
+    top: -35%;
+    z-index: -2;
+}
+.ball2-ca{
+	position: absolute;
+    left: -91%;
+    top: 4%;
+    z-index: -2;
+}
+.ball4-ca{
+	position: absolute;
+    right: -58%;
+    top: -18%;
+    z-index: -2;
+}
+.ball5-ca{
+	position: absolute;
+    right: -45%;
+    top: -81%;
+    z-index: -2;
 }
