@@ -71,8 +71,8 @@ footer ul li img:last-child{height: 15px;}
 	align-items: center;
 }
 .row-flex-baseline{
-    display: flex;
-    align-items: baseline;
+	display: flex;
+	align-items: baseline;
 }
 /*Fonts*/
 @font-face {
@@ -117,42 +117,42 @@ h1{
 }
 .title-cat-typo a{color:#000}
 @media all and (min-width: 0px) and (max-width: 352px){
-    .title1{
+	.title1{
 		font-size: 3.5em;
 		font-size: 3em;
 		top: -12%;
 	}
 }
 @media all and (min-width: 353px) and (max-width: 367px){
-    .title1{
+	.title1{
 		font-size: 3.5em;
 		top: -17%;
 		right: 6%;
 	}
 }
 @media all and (min-width: 368px) and (max-width: 429px){
-    .title1{
+	.title1{
 		font-size: 4em;
 		top: -20%;
 		right: 7%;
 	}
 }
 @media all and (min-width: 429px) and (max-width: 469px){
-    .title1{
+	.title1{
 		font-size: 4em;
 		top: -24%;
-    	right: 16%;
+		right: 16%;
 	}
 }
 @media all and (min-width: 470px) and (max-width: 510px){
-    .title1{
+	.title1{
 		font-size: 4em;
 		top: -24%;
 		right: 14%;
 	}
 }
 @media all and (min-width: 511px) and (max-width: 991px){
-    .title1{
+	.title1{
 		font-size: 5em;
 		top: -34%;
 		right: 13%;
@@ -186,21 +186,21 @@ h1{
 }
 .title-typo-1{
 	font-family: 'Autografy';
-    font-size: 10em;
-    position: absolute;
-    top: -191%;
-    left: 53%;
-    color: rgba(128, 175, 175,.3);
-    z-index: -1;
+	font-size: 10em;
+	position: absolute;
+	top: -191%;
+	left: 53%;
+	color: rgba(128, 175, 175,.3);
+	z-index: -1;
 }
 .title-typo-2{
 	font-family: 'Autografy';
-    font-size: 10em;
-    position: absolute;
-    bottom: -70%;
-    left: -48%;
-    color: rgba(128, 175, 175,.3);
-    z-index: -1;
+	font-size: 10em;
+	position: absolute;
+	bottom: -70%;
+	left: -48%;
+	color: rgba(128, 175, 175,.3);
+	z-index: -1;
 }
 .title-illu{
 	font-family: 'Autografy';
@@ -278,7 +278,7 @@ h1{
 				.intro-p{
 					font-family: 'Futura';
 					margin: auto;
-					padding: 5em 30%;
+					padding: 5em 20%;
 				}
 				.subtitle{
 					font-family: 'Futura-Bold';
@@ -341,7 +341,7 @@ h1{
 				.bg-2-container{
 					background-color: rgb(128, 175, 175,.4);
 					padding: 2em 0;
-    				text-align: center;
+					text-align: center;
 				}
 				.y-ex{
 					font-family: 'Quant';
@@ -414,7 +414,7 @@ h1{
 				}
 				.img-ty{
 					height: 250px;
-    				object-fit: cover;
+					object-fit: cover;
 				}
 				
 
@@ -423,6 +423,7 @@ h1{
 .quant{font-family: Quant;}
 
 .fz-1-2{font-size: 1.2em;}
+.fz-1-7{font-size: 1.7em;}
 .fz-2{font-size:2em;}
 .fz-2-5{font-size:2.5em;}
 .fz-2-7{font-size: 2.7em;}
@@ -447,45 +448,45 @@ hr{
 }
 .ball1{
 	position: absolute;
-    left: -42%;
-    top: 2%;
+	left: -42%;
+	top: 2%;
 	z-index: -2;
 }
 .ball2{
 	position: absolute;
-    right: -199%;
-    top: -19%;
+	right: -199%;
+	top: -19%;
 	z-index: -1;
 }
 .ball3{
 	position: absolute;
-    left: -38%;
-    z-index: -1;
-    top: -23%;
+	left: -38%;
+	z-index: -1;
+	top: -23%;
 }
 .ball4{
 	position: absolute;
-    right: -196%;
-    top: -410%;
+	right: -196%;
+	top: -410%;
 	z-index: -1;
 }
 .ball5{
 	position: absolute;
-    left: -180%;
-    top: -12%;
+	left: -180%;
+	top: -12%;
 	z-index: -1;
 }
 .ball6{
 	position: absolute;
-    bottom: -10%;
-    right: -47%;
-    z-index: -1;
+	bottom: -10%;
+	right: -47%;
+	z-index: -1;
 }
 .ball7{
 	position: absolute;
-    left: -189%;
-    top: -44%;
-    z-index: -1;
+	left: -189%;
+	top: -44%;
+	z-index: -1;
 }
 .square-1{
 	position: absolute;
@@ -637,13 +638,20 @@ hr{
 .mb-1-rz{margin-bottom: 0em;}
 .mb-2-rz{margin-bottom: 0em;}
 .mb-4-rz{margin-bottom: 0em;}
-.mt--7{margin-top: .7em;}
-.mt-7-rz{margin-top:7em}
+
+.mt-0{margin-top: 0;}
+.mt-2{margin-top:2em;}
+.m-auto-rz{margin:auto;}
+
 .mt-4{margin-top: 4em;}
 .mt-4-rz{margin-top: 4em;}
 .mt-4-r2{margin-top: 0;}
-.mt-0{margin-top: 0;}
-.m-auto-rz{margin:auto;}
+.mt-5{margin-top: 5em;}
+
+.mt--7{margin-top: .7em;}
+.mt-7-rz{margin-top:7em}
+
+
 
 @media all and (min-width: 0px) and (max-width: 600px){
 	.mt-4-rz{margin-top: 0;}
@@ -661,6 +669,7 @@ hr{
 .p-3-0{padding: 3em 0;}
 .p-0-4{padding:0 4em;}
 .p-10{padding: 10px;}
+.pl-0{padding-left: 0!important;}
 .p-0-4-rz{padding:0 4em;}
 			@media all and (min-width:0px) and (max-width: 599px){
 				.q-ex{font-size: 2.3em;}
@@ -709,6 +718,7 @@ hr{
 .h230{height: 230px;}
 .h200{height: 200px;}
 .h100{height: 100px;}
+.h50{height: 50px;}
 
 .w-100{width: 100%;}
 .w-100-rz{width: 100%;}
@@ -762,8 +772,8 @@ hr{
 	}
 }
 
-.bg-light-1{background-color: rgba(211, 101, 128,.7);}
-.bg-light-2{background-color: rgba(128, 175, 175, .45);}
+.bg-light-1{background-color: rgba(222, 92, 128,.3);}
+.bg-light-2{background-color: rgba(113, 176, 173,.45);}
 									
 									.pro-title-2{
 										width: 20%;
@@ -1028,3 +1038,98 @@ hr{
 										}
 									}
 								
+/*Collage*/
+.title-collage{
+	font-family: 'Autografy';
+	font-size: 14em;
+	position: absolute;
+	bottom: -73%;
+	left: 53%;
+	color: rgba(128, 175, 175,.3);
+	z-index: -1;
+	rotate: 270deg;
+}
+.title-merch{
+	font-family: 'Autografy';
+	font-size: 13em;
+	position: absolute;
+	left: -8%;
+	color: rgba(128, 175, 175,.3);
+	z-index: -1;
+	top: -86%;
+}
+.some-text{
+	font-family: 'Futura-Bold';
+	position: absolute;
+	bottom: -9%;
+	left: 7%;
+	font-size: 1.2em;
+}
+.shape-text{
+	font-family: 'Futura-Bold';
+	position: absolute;
+	bottom: -11%;
+	left: 34%;
+	font-size: 1.2em;
+}
+.human-text{
+	font-family: 'Futura-Bold';
+	position: absolute;
+	bottom: -11%;
+	left: 55%;
+	font-size: 1.2em;
+}
+.electric-text{
+	font-family: 'Futura-Bold';
+	position: absolute;
+	bottom: -12%;
+	left: 15%;
+	font-size: 1.2em;
+}
+.collage-absolute{
+	position: absolute;
+    top: -45%;
+    left: 0;
+	width: 50%;
+}
+.collage-absolute-2{
+	position: absolute;
+    top: -30%;
+    right: 16%;
+    width: 40%;
+}
+.alignment-collage-1{
+	margin-top: -7%;
+    padding-bottom: 23%;
+}
+.alignment-collage-2{
+	margin-top: 8%;
+    margin-right: 15%;
+}
+.col20{
+	width: 20%;
+	padding: .75rem;
+}
+.title-collage-2{
+	font-family: 'Autografy';
+    font-size: 11em;
+    position: absolute;
+    left: -13%;
+    color: rgba(222, 92, 128,.3);
+    z-index: -1;
+    top: -94%;
+}
+.arrows{
+	width: 60%;
+    object-fit: cover;
+    margin: auto;
+    position: absolute;
+    top: -124%;
+    left: 0;
+    right: 0;
+}
+.intro-p-2{
+	font-family: 'Futura';
+    margin: auto;
+    padding: 5em 20% 8em;
+}
