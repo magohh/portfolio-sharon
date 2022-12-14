@@ -211,7 +211,7 @@ h1{
 	color: rgba(211, 101, 128, .2);
 	z-index: -1;
 }
-.title-collage{
+.title-collage-1{
 	font-family: 'Autografy';
 	font-size: 10em;
 	position: absolute;
@@ -414,7 +414,7 @@ h1{
 				}
 				.img-ty{
 					height: 250px;
-					object-fit: cover;
+					object-fit: contain;
 				}
 				
 
@@ -741,6 +741,7 @@ hr{
 
 .justify{text-align: justify;}
 .obj-cover{object-fit: cover;}
+.obj-contain{object-fit: contain;}
 
 @media all and (min-width: 0px) and (max-width: 700px){
 	
@@ -821,21 +822,21 @@ hr{
 										left: 0;
 										right: 0;
 										margin: auto;
-										z-index: -1;
+										z-index: 2;
 									}
 									.square2{
 										height: 100px;
 										position: absolute;
 										bottom: 27%;
 										right: -3%;
-										z-index: -1;
+										z-index: 2;
 									}
 									.square1{
 										height: 100px;
 										position: absolute;
 										top: -61%;
 										left: 34%;
-										z-index: -1;
+										z-index: 2;
 									}
 									.a-text{
 										position: absolute;
@@ -907,7 +908,7 @@ hr{
 										position: absolute;
 										bottom: 19%;
 										right: 0;
-										z-index: -1;
+										z-index: 1;
 									}
 									.square4{
 										position: absolute;
@@ -915,28 +916,28 @@ hr{
 										left: 0;
 										right: 0;
 										margin: auto;
-										z-index: -1;
+										z-index: 2;
 									}
 									.square5{
 										height: 100px;
 										position: absolute;
 										top: -23%;
 										right: 10%;
-										z-index: -1;
+										z-index: 2;
 									}
 									.square6{
 										height: 100px;
 										position: absolute;
 										left: 10%;
 										bottom: 79%;
-										z-index: -1;
+										z-index: 2;
 									}
 									.square7{
 										height: 100px;
 										position: absolute;
 										left: 51%;
 										bottom: -24%;
-										z-index: -1;
+										z-index: 2;
 									
 									}
 									.square8{
@@ -944,14 +945,14 @@ hr{
 										position: absolute;
 										left: 23%;
 										bottom: -31%;
-										z-index: -1;
+										z-index: 2;
 									}
 									.square9{
 										height: 100px;
 										position: absolute;
 										left: 36%;
 										bottom: -24%;
-										z-index: -1;
+										z-index: 2;
 									}
 									.square10{
 										height: 100px;
@@ -965,7 +966,7 @@ hr{
 										position: absolute;
 										right: 0%;
 										bottom: 3%;
-										z-index: -1;
+										z-index: 2;
 									}
 									
 									.hub-text{
@@ -1010,7 +1011,7 @@ hr{
 										position: absolute;
 										bottom: 14%;
 										left: 6%;
-										z-index: -1;
+										z-index: 2;
 										object-fit: cover;
 									}
 									@media all and (min-width: 0px) and (max-width: 600px){
@@ -1041,13 +1042,13 @@ hr{
 /*Collage*/
 .title-collage{
 	font-family: 'Autografy';
-	font-size: 14em;
-	position: absolute;
-	bottom: -73%;
-	left: 53%;
-	color: rgba(128, 175, 175,.3);
-	z-index: -1;
-	rotate: 270deg;
+    font-size: 14em;
+    position: absolute;
+    bottom: -33%;
+    left: -19%;
+    color: rgba(128, 175, 175,.3);
+    z-index: -1;
+    rotate: 270deg;
 }
 .title-merch{
 	font-family: 'Autografy';
